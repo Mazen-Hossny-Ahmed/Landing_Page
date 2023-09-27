@@ -85,7 +85,7 @@ window.onscroll = () => {
     main_button.style.animation = '';
   }
   if(scrollY >= 1837) {
-    projectsTitle.style.animation = 'fadeInRight 1s ease-in-out';
+    projectsTitle.style.animation = 'FadeRight 1s ease-in-out';
   }else {
     projectsTitle.style.animation = '';
   }

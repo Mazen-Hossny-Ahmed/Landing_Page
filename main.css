@@ -323,6 +323,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 1000px;
 }
 .container .main .projects .projects-title h2 {
   font-size: 45px;
