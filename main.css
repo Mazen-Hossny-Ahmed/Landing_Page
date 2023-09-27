@@ -323,7 +323,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 1000px;
+  max-width: 800px;
 }
 .container .main .projects .projects-title h2 {
   font-size: 45px;
@@ -466,7 +466,7 @@ body {
 .container .main_footer {
   background: #000000;
   margin-top: 10%;
-  height: 640px;
+  height: 450px;
 }
 .container .main_footer .footer_title {
   display: flex;
@@ -602,6 +602,18 @@ body {
   }
 }
 @media (max-width: 790px) {
+  .container .section .mdTitle h2 {
+    font-size: 33px;
+  }
+  .container .section .mdTitle button {
+    margin-right: 40px;
+  }
+  .container .section .images_title {
+    gap: 0;
+  }
+  .container .section .images_title p {
+    padding-right: 15px;
+  }
   .container .nav {
     padding-top: 15px;
     padding-left: 20px;
@@ -632,6 +644,39 @@ body {
   }
   .container .nav .ul .lines {
     display: flex;
+  }
+  .container .main .title h2 {
+    font-size: 26px;
+  }
+  .container .main .projects .projects-title {
+    padding-right: 10px;
+  }
+  .container .main .projects .projects-title h2 {
+    font-size: 31px;
+  }
+  .container .main .news h2 {
+    font-size: 23px;
+  }
+  .container .main .news .arrows {
+    margin-top: -28px;
+  }
+  .container .main .news .button button {
+    margin-left: -82px;
+  }
+  .container .main .boxes .box h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .container .main .button button {
+    margin-left: 0;
+  }
+  .container .footer .title {
+    margin-left: -65px;
+  }
+  .container .main_footer .footer_title h3 {
+    font-size: 30px;
+    margin-left: 61px;
   }
 }
 @media (max-width: 578px) {
@@ -683,8 +728,11 @@ body {
   }
 }
 @media (max-width: 475px) {
+  body > div > div.main > div.footer > div.logos {
+    margin-left: -3px;
+  }
   body > div > div.main > div.footer > div.logos ul {
-    grid-template-columns: 150px;
+    grid-template-columns: 150px 150px;
   }
 }
 @keyframes imagesFadeLeft {
