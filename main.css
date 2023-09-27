@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background-color: #121212;
+  background-color: #000000;
   color: white;
 }
 .container .nav {
@@ -433,7 +433,7 @@ body {
 }
 .container .footer .logos {
   margin-top: 50px;
-  background-color: #121212;
+  background-color: #000000;
   padding-top: 15px;
   border-radius: 6px;
   height: fit-content;
@@ -464,7 +464,7 @@ body {
   width: 90px;
 }
 .container .main_footer {
-  background: #121212;
+  background: #000000;
   margin-top: 10%;
   height: 640px;
 }
@@ -602,11 +602,6 @@ body {
   }
 }
 @media (max-width: 790px) {
-  .container {
-    width: 100%;
-    background-color: #121212;
-    color: white;
-  }
   .container .nav {
     padding-top: 15px;
     padding-left: 20px;
